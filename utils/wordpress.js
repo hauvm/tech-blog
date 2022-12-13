@@ -1,4 +1,4 @@
-const BASE_URL = "https://wp.hauca.win/graphql";
+const BASE_URL = "https://wp.hauca.win/wp-json/wp/v2";
 
 export async function getPosts() {
   const postsRes = await fetch(BASE_URL + "/posts?_embed");
