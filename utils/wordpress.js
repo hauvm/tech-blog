@@ -1,4 +1,4 @@
-const BASE_URL = "https://my-wordpress.sportslink.info/wp-json/wp/v2";
+const BASE_URL = "https://wp.hauca.win/graphql";
 
 export async function getPosts() {
   const postsRes = await fetch(BASE_URL + "/posts?_embed");
